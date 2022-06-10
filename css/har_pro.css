@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none !important;
+    outline: none !important;
+    text-decoration: none !important;
+    text-transform: capitalize;
+    font-weight:  400;
+}
+body{
+    width: 100%;
+}
+#navebar{
+    background-image: url("../mountains-and-trees.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1000;
+    width: 100%;
+    height: 500px;
+}
+#navebar .container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color: blanchedalmond;
+    margin-left:50px ;
+    font-size: 1.3rem;
+}
+a{
+    color:rgb(243, 234, 234);
+
+}
+.home{
+    color: greenyellow;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav ul li{
+    margin-left: 19px;
+    margin-right: 8px;
+}
+.nav ul li a{
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: chartreuse;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(233, 228, 219);
+    font-family:Arial, Helvetica, sans-serif;
+    
+    
+}
+.output{
+    text-align: center;
+    color: white;
+}
+.btn{
+    height: 3rem;
+    width: 12rem;
+    background:greenyellow;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 2rem;
+    margin: 1rem 0rem;
+    left: 580px;
+}
+.img1{
+    height: 60px;
+    width: 40px;
+    display: block;
+    margin-left:auto ;
+    margin-right: auto;
+    padding: 20px;
+}
+.section1{
+    background-color:greenyellow;
+    height: 200px;
+}
+.text{
+    text-align: center;
+    color: white;
+}
+.section4{
+    background-image: url("../images.jpg"),url("../images\ \(1\).jpg"),url("../images\ \(2\).jpg");
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-size: 500px ,500px,500px;
+    background-position: 0px 0px,480px 0px, 950px 0px;
+    height: 200px;
+}
+h2{
+    color: white;
+    float: left;
+    padding-top: 60px;
+    padding-left: 290px;
+    text-align: center;
+}
+
+.section2{
+    background-color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.img2{
+    margin-left: 180px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 300px;
+    border-radius: 50%;
+    
+}
+.float{
+    float: right;
+    margin-right: 160px;
+    margin-top: 60px;
+}
+ p{
+    margin-top: 5px;
+}
+.btn2{
+    height: 3rem;
+    width: 10rem;
+    background:greenyellow;
+    color: #fff;
+    font-size: 17px;
+    text-transform: capitalize;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 5rem;
+    margin: 0rem 9rem;
+    left: 580px;
+}
+.section3{
+    background-color: black;
+    height: 500px;
+}
+.img3{
+    margin-right: 180px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    height: 400px;
+    float: right;
+    border-radius: 50%;
+}
+.float1{
+    color: white;
+    margin-left: 70px;
+}
+.float1 h3{
+    margin-left: 80px;
+    padding-top: 60px;
+}
+.btn3{
+    height: 3rem;
+    width: 10rem;
+    background:white;
+    color: black;
+    font-size: 17px;
+    text-transform: capitalize;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 5rem;
+    margin: 0rem 9rem;
+    right:890px;
+
+}
+
+.img4{
+    height: 50px;
+    width: 40px;
+    display: block;
+    margin-left:auto ;
+    margin-right: auto;
+    padding-top: 40px;
+    border-radius: 50%;
+}
+.section5{
+    background-color: white;
+    height: 300px;
+}
+#p1{
+    text-align: center;
+}
+#p2{
+    text-align: center;
+}
+.name{
+    color: black;
+}
+.btn4{
+    height: 3rem;
+    width: 10rem;
+    background:greenyellow;
+    color: #fff;
+    font-size: 17px;
+    text-transform: capitalize;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 5rem;
+    margin: 0rem 9rem;
+    left:450px;
+
+}
+.section6{
+    background-color: greenyellow;
+    height: 400px;
+}
+.contact{
+    padding-top: 90px;
+}
+.img5{
+    height: 50px;
+    width: 40px;
+    display: block;
+    margin-left:auto ;
+    margin-right: auto;
+
+}
+.number{
+    text-align: center;
+    color: white;
+}
+.img6{
+    height: 50px;
+    width: 40px;
+    display: block;
+    margin-left:auto ;
+    margin-right: auto;
+}
+.email{
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+/*  media queries */
+ 
+@media only screen and (max-width: 768px){
+    body{
+        width: 100%;
+    }
+    #navebar{
+        width: 100%;
+        height: 500px;
+    }
+    .btn{
+        border-radius: 2rem;
+        margin-right: 50vh;
+        position: relative;
+        right: 30vh;
+        left: 50vh;
+    }
+    .img2{
+        margin-left: 60px;
+        height: 200px;
+        border-radius: 50%;
+        
+    }
+    .float{
+        margin-right: 160px;
+        margin-top: 20px;
+        text-align: center;
+        left: 30vh;
+        right: 30vh;
+        font-size: 3rem;
+    }
+    .section4{
+        background-size: 300px ,300px,300px;
+        background-position: 0px 0px,280px 0px, 500px 0px;
+        height: 200px;
+    }
+    h2{
+        color: white;
+        float: left;
+        padding-top: 60px;
+        padding-left: 290px;
+        text-align: center;
+    }
+    .section5{
+        background-color: white;
+        height: 200px;
+    }
+    .img4{
+        height: 30px;
+        width: 30px;
+        /* display: block; */
+        margin-left:auto ;
+        margin-right: auto;
+        padding-top: 40px;
+        border-radius: 50%;
+    }
+    h2{
+        float: left;
+        text-align: center;
+    }
+    .img3{
+        /* margin-right: 180px; */
+        /* margin-top: 45px; */
+        margin-bottom: 500vh;
+        height: 200px;
+        float: right;
+        bottom: 400vh;
+        
+    }
+    .float1{
+        position: relative;
+        bottom: 300px;
+        
+    }
+    .bt3{
+        margin-left: 200px;
+        margin-right: 400px;
+        margin-top: 500px;
+    }
+    .section3{
+        height: 300px;
+    }
+  
+}

@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none !important;
+    outline: none !important;
+    text-decoration: none !important;
+    text-transform: capitalize;
+    font-weight:  400;
+}
+body{
+    width: 100%;
+}
+.row1
+{
+    background-image: url(../images/morning-mountain-cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 450px;
+}
+#navebar .container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color: blanchedalmond;
+    margin-left:50px ;
+    font-size: 1.3rem;
+    font-family:"Lucida Console";
+    letter-spacing: 1ch;
+}
+a{
+    color:rgb(243, 234, 234);
+
+}
+.home{
+    color: greenyellow;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav ul li{
+    margin-left: 19px;
+    margin-right: 8px;
+}
+.nav ul li a{
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: chartreuse;
+}
+.page-front{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(248, 247, 244);
+    font-family:Arial, Helvetica, sans-serif;
+    
+    
+}
+.row1-contentbox
+{
+    padding-top: 100px;
+    line-height: 75px;
+
+}
+.output{
+    text-align: center;
+    color: rgba(255,250,250,0.5);
+}
+.btn-div{text-align: center;}
+.btn{
+    height: 3rem;
+    width: 12rem;
+    background:greenyellow;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+    /* position: absolute; */
+    border-radius: 2rem;
+    margin: 1rem 0rem;
+    left: 580px;
+    align-self:center;
+}
+/* row 2 css begins */
+.img1{
+    height: 40px;
+    width: 40px;
+    display: block;
+    margin-left:auto ;
+    margin-right: auto;
+    padding: 20px;
+}
+.row2{
+    background-color:greenyellow;
+    height: 200px;
+}
+.text{
+    text-align: center;
+    color: white;
+}
+/* row 2 css ends */
+
+/* row 3 css starts */
+.row3{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.img2
+{
+    height: 300px;
+    border-radius: 50%;
+     
+}
+.row3-col1 
+{
+    height: 350px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.row3-col2
+{
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+.row3-col2>h3{
+    margin-top:     100px;
+    margin-bottom: 15px;
+}
+.btn2{
+    height: 3rem;
+    width: 10rem;
+    background:greenyellow;
+    color: #fff;
+    font-size: 17px;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 5rem;
+    margin: 0rem 9rem;
+    left: 580px;
+}
+
+/* row 3 css ends */
+
+/* row 4 css starts */
+.row4{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: black;
+    height: 400px;
+}
+.row4-col1
+{
+    padding-top: 50px;
+}
+.img3{
+    width: 500px;
+    height: 300px;
+    border-radius: 60%;
+}
+.row4-col2{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    
+}
+.row4-col2>h3{
+    margin-top:     100px;
+    margin-bottom: 15px;
+    padding-left: 80px;    
+}
+.btn3{
+    height: 3rem;
+    width: 10rem;
+    background:white;
+    color: black;
+    font-size: 17px;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 5rem;
+    margin: 0rem 9rem;
+    right:890px;
+
+}
+/* row 4 css ends */
+
+/* row 5 css */
+.row5
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.row5-inner1, .row5-inner2, .row5-inner3
+{
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 80px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.row5-inner1
+{
+    background-image:url("../images/row5_1.jpeg");
+}
+.row5-inner2
+{
+    background-image:url("../images/row5_2.jpg");
+}
+.row5-inner3
+{
+    background-image:url("../images/row5_3.jpg");
+}
+/* row 5 css ends */
+
+/* row 6 starts */
+.img4{
+    height: 50px;
+    width: 40px;
+    display: block;
+    margin-left:auto ;
+    margin-right: auto;
+    padding-top: 40px;
+    border-radius: 50%;
+}
+.row6
+{
+    background-color: white;
+    height: 300px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.btn4{
+    height: 3rem;
+    width: 10rem;
+    background:greenyellow;
+    color: #fff;
+    font-size: 17px;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 5rem;
+    margin: 0rem 9rem;
+    left:450px;
+
+}
+
+/* row 6 ends */
+
+/* row 7 starts */
+.row7{
+    background-color: greenyellow;
+    height: 400px;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+
+.img5{
+    width: 40px;
+    display: block;
+    margin-left:auto ;
+    margin-right: auto;
+
+}
+
+.img6{
+    height: 50px;
+    width: 40px;
+    display: block;
+    margin-left:auto ;
+    margin-right: auto;
+}
+/* row 7 ends */
+
+/* media queries */
+
+@media (max-width:768px)
+{
+    .row5, .row4, .row3
+    {
+        grid-template-columns: auto;
+    }
+}
